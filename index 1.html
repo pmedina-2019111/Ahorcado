@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header style="width: 80%; height: 200px; text-align: end; font-size: 33px;">
+        <h2 class="h2">Bienvenido a mi Calculadora  7w7 ♥</h2>
+    </header>
+    <div class="Calculadora">
+        <input type="text" id="pantalla"  readonly>
+        <div class="Botones">
+            <button onclick="agregarCaracter('7')">7</button>
+            <button onclick="agregarCaracter('8')">8</button>
+            <button onclick="agregarCaracter('9')">9</button>
+            <button onclick="agregarCaracter('/')">/</button>
+            <button onclick="agregarCaracter('4')">4</button>
+            <button onclick="agregarCaracter('5')">5</button>
+            <button onclick="agregarCaracter('6')">6</button>
+            <button onclick="agregarCaracter('*')">*</button>
+            <button onclick="agregarCaracter('1')">1</button>
+            <button onclick="agregarCaracter('2')">2</button>
+            <button onclick="agregarCaracter('3')">3</button>
+            <button onclick="agregarCaracter('-')">-</button>
+            <button onclick="agregarCaracter('0')">0</button>
+            <button onclick="agregarCaracter('.')">.</button>
+            <button onclick="calcular()">=</button>
+            <button onclick="agregarCaracter('+')">+</button>
+            <button onclick="limpiarPantalla()">C</button>
+        </div>
+    </div>
+    <div class="foot">
+        <footer>© Pepin Medina 2019111</footer>
+    </div>
+    <script src="./assets/logica.js"></script>
+</body>
+</html>
